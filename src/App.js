@@ -135,7 +135,7 @@ class App extends Component {
                 </DropdownToggle>
                 <DropdownMenu right>
                   <DropdownItem>
-                    <NavLink href="https://github.com/kelptape" target="_blank">Github</NavLink>
+                    <NavLink href="https://github.com/clayPalumbo" target="_blank">Github</NavLink>
                   </DropdownItem>
                   <DropdownItem>
                     <NavLink href="https://www.linkedin.com/in/clay-palumbo/" target="_blank">LinkedIn</NavLink>
