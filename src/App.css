@@ -28,6 +28,10 @@
   -webkit-filter: drop-shadow(5px 5px 5px rgba(34, 34, 34, 0.589) );
   filter: drop-shadow(5px 5px 5px rgba(34, 34, 34, 0.589));
 }
+html,body
+{
+    overflow-x: hidden; 
+}
 
 h1 {
   font-size: 40px

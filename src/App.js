@@ -18,7 +18,7 @@ import Particles from 'react-particles-js';
 import SkillBar from 'react-skillbars';
 import { binary, computer, element, fts, Agility, me, linkedIn, wells, AppState } from './imgs'
 import { Link, Element } from 'react-scroll'
-import { Parallax} from 'react-parallax';
+import { Parallax } from 'react-parallax';
 
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.css';
@@ -249,17 +249,17 @@ class App extends Component {
                   </div>
                 </div>
               </div>
-              <hr/>
+              <hr />
             </div>
             <div className="col-md-1">
-              </div>
-            <div className="col-4 mb-5 pl-5 pt-5 pr-5 text-left">
-            <h1><span style={{fontWeight: "200", fontSize: "50px"}}>TOP SHELF </span></h1><h1 style={{fontWeight: "200", fontSize: "50px"}}>DEVELOPMENT</h1> 
-            <p>with a focus on modern web production. Utilizing the latest tools available to help build quality solutions.</p>          
-              </div>
-              {/* <div className="col-md-1">
+            </div>
+            <div className="col-4 mb-3 pl-5 pt-5 pr-5 text-left">
+              <h1><span style={{ fontWeight: "200", fontSize: "50px" }}>TOP SHELF </span></h1><h1 style={{ fontWeight: "200", fontSize: "50px" }}>DEVELOPMENT</h1>
+              <p>with a focus on modern web production. Utilizing the latest tools available to help build quality solutions.</p>
+            </div>
+            {/* <div className="col-md-1">
               </div> */}
-            <div className="col-6 pl-5 mb-5 pr-5">
+            <div className="col-6 pl-5 mb-3 pr-5">
               <SkillBar
                 skills={skills}
                 animationDelay={0}
@@ -267,7 +267,7 @@ class App extends Component {
                 height={"4vh"}
               />
             </div>
-            </div>
+          </div>
           {/* <div
             style={{
               background: `url(${fts})`,
@@ -277,8 +277,7 @@ class App extends Component {
               backgroundPosition: "center",
               margin: "auto"
             }} */}
-          >
-                    <Parallax
+          <Parallax
             bgImage={fts}
             strength={400}
             renderLayer={percentage => (
@@ -305,7 +304,7 @@ class App extends Component {
               height: "50vh",
             }}>
             <h1 className="pt-5" style={{ margin: "auto" }}>
-            <h1><span style={{fontWeight: "200", fontSize: "50px"}}>Contact Section </span></h1><h1 style={{fontWeight: "200", fontSize: "50px"}}>Coming Soon</h1> 
+              <h1><span style={{ fontWeight: "200", fontSize: "50px" }}>Contact Section </span></h1><h1 style={{ fontWeight: "200", fontSize: "50px" }}>Coming Soon</h1>
             </h1>
           </div>
           {/* <div className="col-12 p-0">
